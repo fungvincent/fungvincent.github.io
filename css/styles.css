@@ -11559,16 +11559,16 @@ section.resume-section .resume-section-content {
   background: #2183C5;
 }
 .bar .progress-line.powerbi span{
-  width: 100%;
-  background: #15547D;
+  width: 80%;
+  background: #1C699D;
 }
 .bar .progress-line.qlikview span{
   width: 100%;
   background: #15547D;
 }
 .bar .progress-line.qliksense span{
-  width: 80%;
-  background: #1C699D;
+  width: 100%;
+  background: #15547D;
 }
 .bar .progress-line.tableau span{
   width: 60%;
@@ -11626,13 +11626,13 @@ section.resume-section .resume-section-content {
   content: "Intermediate";
 }
 .progress-line.powerbi span::after{
-  content: "Expert";
+  content: "Advanced";
 }
 .progress-line.qlikview span::after{
   content: "Expert";
 }
 .progress-line.qliksense span::after{
-  content: "Advanced";
+  content: "Expert";
 }
 .progress-line.tableau span::after{
   content: "Intermediate";

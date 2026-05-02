@@ -11550,6 +11550,10 @@ section.resume-section .resume-section-content {
   transform-origin: left;
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
+.bar .progress-line.sql span{
+  width: 60%;
+  background: #2183C5;
+}
 .bar .progress-line.excel span{
   width: 100%;
   background: #15547D;
@@ -11558,49 +11562,29 @@ section.resume-section .resume-section-content {
   width: 60%;
   background: #2183C5;
 }
-.bar .progress-line.powerbi span{
-  width: 80%;
-  background: #1C699D;
-}
-.bar .progress-line.qlikview span{
+.bar .progress-line.qlik span{
   width: 100%;
   background: #15547D;
 }
-.bar .progress-line.qliksense span{
+.bar .progress-line.powerbi span{
   width: 100%;
   background: #15547D;
 }
 .bar .progress-line.tableau span{
-  width: 60%;
-  background: #2183C5;
-}
-.bar .progress-line.html span{
-  width: 60%;
-  background: #2183C5;
-}
-.bar .progress-line.css span{
-  width: 60%;
-  background: #2183C5;
-}
-.bar .progress-line.java span{
-  width: 40%;
-  background: #66B1E3;
-}
-.bar .progress-line.php span{
-  width: 40%;
-  background: #66B1E3;
-}
-.bar .progress-line.c span{
   width: 80%;
   background: #1C699D;
 }
-.bar .progress-line.sql span{
-  width: 40%;
-  background: #66B1E3;
-}
-.bar .progress-line.photoshop span{
+.bar .progress-line.lookerstudio span{
   width: 80%;
   background: #1C699D;
+}
+.bar .progress-line.adobeanalytics span{
+  width: 100%;
+  background: #15547D;
+}
+.bar .progress-line.googleanalytics span{
+  width: 100%;
+  background: #15547D;
 }
 
 .progress-line.visible span::after{
@@ -11619,44 +11603,32 @@ section.resume-section .resume-section-content {
     opacity: 1;
   }
 }
+.progress-line.sql span::after{
+  content: "Intermediate";
+}
 .progress-line.excel span::after{
   content: "Expert";
 }
 .progress-line.alteryx span::after{
   content: "Intermediate";
 }
-.progress-line.powerbi span::after{
-  content: "Advanced";
-}
-.progress-line.qlikview span::after{
+.progress-line.qlik span::after{
   content: "Expert";
 }
-.progress-line.qliksense span::after{
+.progress-line.powerbi span::after{
   content: "Expert";
 }
 .progress-line.tableau span::after{
-  content: "Intermediate";
-}
-.progress-line.html span::after{
-  content: "Intermediate";
-}
-.progress-line.css span::after{
-  content: "Intermediate";
-}
-.progress-line.java span::after{
-  content: "Beginner";
-}
-.progress-line.php span::after{
-  content: "Beginner";
-}
-.progress-line.c span::after{
   content: "Advanced";
 }
-.progress-line.sql span::after{
-  content: "Beginner";
-}
-.progress-line.photoshop span::after{
+.progress-line.lookerstudio span::after{
   content: "Advanced";
+}
+.progress-line.adobeanalytics span::after{
+  content: "Expert";
+}
+.progress-line.googleanalytics span::after{
+  content: "Expert";
 }
 
 

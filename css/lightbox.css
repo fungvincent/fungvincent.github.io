@@ -218,3 +218,16 @@ background-color:rgba(0, 0, 0, 0);
     max-width:100% !important;
     height:auto !important;
     }
+
+/* Make the image container the positioning reference */
+.lb-outerContainer {
+  position: relative;
+    }
+
+/* Move close button over image */
+.lb-data .lb-close {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  z-index: 10001;
+    }

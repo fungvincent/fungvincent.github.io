@@ -11562,11 +11562,11 @@ section.resume-section .resume-section-content {
   width: 60%;
   background: #2183C5;
 }
-.bar .progress-line.qlik span{
+.bar .progress-line.powerbi span{
   width: 100%;
   background: #15547D;
 }
-.bar .progress-line.powerbi span{
+.bar .progress-line.qlik span{
   width: 100%;
   background: #15547D;
 }
@@ -11612,10 +11612,10 @@ section.resume-section .resume-section-content {
 .progress-line.alteryx span::after{
   content: "Intermediate";
 }
-.progress-line.qlik span::after{
+.progress-line.powerbi span::after{
   content: "Expert";
 }
-.progress-line.powerbi span::after{
+.progress-line.qlik span::after{
   content: "Expert";
 }
 .progress-line.tableau span::after{
